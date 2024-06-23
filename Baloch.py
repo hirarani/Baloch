@@ -1,1 +1,5 @@
-import baloch_enc
+
+import os
+import random
+os.system("git pull")
+import Baloch_enc
