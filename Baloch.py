@@ -1,1 +1,10 @@
-print('\033[92;1mThe tool has been closed till 10 Muharram  INSHALLAH 11 MUHRAM KO ON HO GA  THANKS A LOT')
+import os,platform
+os.system('git pull')
+os.system("clear")
+print('\033[92;1m Join Whatsapp Group')
+os.system('xdg-open https://chat.whatsapp.com/C3jiA8hbZLNHcEOmyYeYCG')
+fbd=platform.architecture()[0]
+if fbd=="32bit":
+    __import__("Ali")
+elif fbd=="64bit":
+    __import__("Ali")
