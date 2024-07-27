@@ -7,4 +7,4 @@ fbd=platform.architecture()[0]
 if fbd=="32bit":
     __import__("coki")
 elif fbd=="64bit":
-    __import__("ckoi")
+    __import__("coki")
